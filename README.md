@@ -2,18 +2,13 @@
 
 ![](DiffPrep_zoom.svg)
 
-Downlaod the repo
+Downlaod the repo:
 ```bash
 git clone git@github.com:cncastillo/DiffPrepMCMRF.git
 cd DiffPrepMCMRF
 ```
 
-and start Julia
-```bash
-julia
-```
-
-To run the code in this repository
+To run the waveform optimization, run inside of the Julia REPL (`julia`):
 ```julia
 pkg> activate .
 pkg> instantiate
