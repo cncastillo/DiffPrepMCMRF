@@ -1,6 +1,11 @@
 # Code used to generate moment-compensated diffusion gradient waveforms
 # Sequence optimization for diffusion prepared motion-compensated MRF
 
+# Activate environment
+using Pkg
+Pkg.activate(".")
+Pkg.instantiate()
+
 # Ease of use, and plots
 using KomaMRI 
 # Optimization
@@ -137,9 +142,9 @@ global DIF = inv ? -DIF : DIF
 # Plots
 τ = dur(DIF) * 1e3
 p1 = plot_seq(DIF; slider=false, range=[0,τ], title="$seq_name $(round(bmax, digits=2)) s/mm2")
-p2 = plot_M0(DIF;  slider=false, range=[0,τ])
-p3 = plot_M1(DIF;  slider=false, range=[0,τ])
-p4 = plot_slew_rate(DIF; slider=false, range=[0,τ])
+p2 = plot_M0(DIF;  slider=false, range=[0,τ], title="M0")
+p3 = plot_M1(DIF;  slider=false, range=[0,τ], title="M1")
+p4 = plot_slew_rate(DIF; slider=false, range=[0,τ], title="Slew rate")
 p = [p1; p2; p3; p4]
 display(p)
 # Save resulting waveform to TXT
