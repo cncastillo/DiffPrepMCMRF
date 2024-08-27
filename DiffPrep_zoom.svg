@@ -26,14 +26,14 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="4.2388695"
-     inkscape:cx="600.39593"
-     inkscape:cy="141.31126"
-     inkscape:window-width="1076"
-     inkscape:window-height="995"
-     inkscape:window-x="35"
-     inkscape:window-y="32"
-     inkscape:window-maximized="0"
+     inkscape:zoom="1.0597174"
+     inkscape:cx="484.09134"
+     inkscape:cy="110.4068"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg6750">
     <inkscape:grid
        type="xygrid"
@@ -888,6 +888,13 @@
          id="path40415" />
     </marker>
   </defs>
+  <rect
+     style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:4;stroke-linecap:square;stroke-miterlimit:2"
+     id="rect1521"
+     width="793.42719"
+     height="464.62491"
+     x="-3.6861243"
+     y="-23.185722" />
   <path
      style="fill:none;stroke:#9f9f9f;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.99999, 7.99999;stroke-dashoffset:0;stroke-opacity:1"
      d="m 602.64,124.2114 v 64.92092"
