@@ -39,7 +39,7 @@ b-value: 851.17 s/mm2
 HS2_MX_MC1_gap
 Finished! 💃
 ```
-Diffusion prepared module:
+Diffusion prepared module ([InteractiveDiffPrep.html](InteractiveDiffPrep.html), downlaod and open in browser):
 ![image](https://github.com/user-attachments/assets/ef06b817-ecef-4572-b33d-53ad92a76bb2)
 Waveforms stored as TXT:
 ![image](https://github.com/user-attachments/assets/76b62ca9-b05b-4be0-9e5e-1082ffd3263b)
