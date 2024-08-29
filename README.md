@@ -9,7 +9,7 @@ git clone git@github.com:cncastillo/DiffPrepMCMRF.git
 cd DiffPrepMCMRF
 ```
 ## Run
-To run the waveform optimization, run inside of the Julia REPL (`julia`):
+To run the waveform optimization, use the following command inside of the Julia REPL (`julia`):
 ```julia
 julia> include("DiffPrepMCMRF.jl")
 ```
